@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(20, 20, 20, 0.842);
+}
+
+#container {
+    width: 1325px;
+    height: 495px;
+    border: 1px solid #f1f1f1;
+    position: relative;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: #143507;
+}
+
+.card {
+    width: 160px;
+    height: 240px;
+    perspective: 600px;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    transition: all 1s;
+    backface-visibility: hidden;
+}
+
+.back {
+    background: url(./imagem/verso.png);
+}
+/*Movimento das cartas*/
+.back.flipped {
+    transform: rotateY(180deg);
+}
+
+.front {
+    background: url(./imagem/1.png);
+    transform: rotateY(-180deg);
+}
+
+.front.flipped {
+    transform: rotateY(0deg);
+}
+
+.card:hover {
+    box-shadow: 0 0 10px #f0e9e9; 
+}
+
