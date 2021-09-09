@@ -36,7 +36,7 @@ body {
 }
 
 .back {
-    background: url(./imagem/verso.png);
+    background: url(./image/verso.png);
 }
 /*Movimento das cartas*/
 .back.flipped {
@@ -44,7 +44,6 @@ body {
 }
 
 .front {
-    background: url(./imagem/1.png);
     transform: rotateY(-180deg);
 }
 
