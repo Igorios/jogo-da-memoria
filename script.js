@@ -1,6 +1,8 @@
 (function(){
     let images = [];
 
+    let flippedCards = [];
+
     for(let i = 0; i < 16; i++) {
         let img = {
             src: "image/" + i + ".png",
@@ -12,6 +14,7 @@
     startGame();
 
     function startGame() {
+        flippedCards = [];
         images = randomSort(images);
 
         let frontFaces = document.getElementsByClassName('front');
@@ -44,10 +47,26 @@
     }
 
     function flipCard() {
-        let faces = this.getElementsByClassName('face');
-        //Criando classes sem o html//
-        faces[0].classList.toggle('flipped');
-        faces[1].classList.toggle('flipped');
+        if(flippedCards.length < 2) {
+            let faces = this.getElementsByClassName('face');
+            //Impedindo de clicar duas vezes na mesma carta
+            if(faces[0].classList.length > 2) {
+                return;
+            }
+
+            //Criando classes sem o html//
+            faces[0].classList.toggle('flipped'); //Se possuir ele cria, caso contrário ele remove
+            faces[1].classList.toggle('flipped');
+
+            flippedCards.push(this);
+        } else {
+            flippedCards[0].childNodes[1].classList.toggle('flipped');
+            flippedCards[0].childNodes[3].classList.toggle('flipped');
+            flippedCards[1].childNodes[1].classList.toggle('flipped');
+            flippedCards[1].childNodes[3].classList.toggle('flipped');
+
+            flippedCards = [];
+        }
     };
 
 }());
