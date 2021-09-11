@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: rgba(20, 20, 20, 0.842);
+    background-color: rgb(138, 132, 132);
+    text-align: center;
 }
 
 #container {
@@ -55,3 +56,19 @@ body {
     box-shadow: 0 0 10px #f0e9e9; 
 }
 
+.face.flipped.match {
+    box-shadow: 0 0 10px rgb(20, 194, 14);
+}
+
+#modalGameOver {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -2; /*Profundidade*/
+}
+
+#imgGameOver {
+    margin-top: 150px;
+}
