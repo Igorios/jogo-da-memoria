@@ -12,6 +12,8 @@
     startGame();
 
     function startGame() {
+        images = randomSort(images);
+
         let frontFaces = document.getElementsByClassName('front');
 
         for(let i = 0; i < 16; i++) { //Todos os cards
@@ -26,6 +28,20 @@
             frontFaces[i].setAttribute('id', images[i].id);
         }
     };
+
+    function randomSort(oldArray) {
+        //console.log(Math.floor(Math.random()*17));
+        let newArray = [];
+
+        while(newArray.length !== oldArray.length) {
+            let i = Math.floor(Math.random()*oldArray.length);
+
+            if(newArray.indexOf(oldArray[i]) < 0) {
+                newArray.push(oldArray[i]);
+            }
+        }
+        return newArray;
+    }
 
     function flipCard() {
         let faces = this.getElementsByClassName('face');
