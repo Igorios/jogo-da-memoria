@@ -14,9 +14,9 @@ body {
     height: 495px;
     border: 1px solid #f1f1f1;
     position: relative;
-    margin: 20px auto;
+    margin: 50px auto;
     border-radius: 10px;
-    background-color: #143507;
+    background-image: url(./image/mesa-do-jogo.jpg);
 }
 
 .card {
