@@ -3,10 +3,9 @@
 ### Esse repositório foi inspirado nos programadores mais importântes na história da computação. Com certeza está faltando mais gente aqui, mas como não dava para colocar todos, fica pra próxima.
 #
 
-## Que tal jogar? 😁:
-<br>
+### Que tal jogar? 😁:
 
-### <a href="https://igorios.github.io/jogo-da-memoria/">Clique aqui!</a> 👈😎
+- <a href="https://igorios.github.io/jogo-da-memoria/">Clique aqui!</a> 👈😎
 #
 
 ## Clone esse repositório: 
@@ -49,11 +48,10 @@
 ![TimBerners-Lee](./image/7.png)
 - Ele é um físico britânico, cientista da computação e professor do MIT. Famoso pela **criação do World Wide Web,** *WWW* para os intímos.
 #
-<br>
 
 ## **Tecnologias usadas no projeto:**
-<img src="https://logospng.org/download/html-5/logo-html-5-256.png" width="90px" height="90" alt="html-logo" />
-<img src="https://logospng.org/download/css-3/logo-css-3-256.png" width="90px" height="90" alt="css-logo"/>
-<img src="https://logospng.org/download/javascript/logo-javascript-256.png" width="90px" height="90" alt="javascript-logo"/>
+<img src="https://logospng.org/download/html-5/logo-html-5-256.png" width="50px" height="50" alt="html-logo" />
+<img src="https://logospng.org/download/css-3/logo-css-3-256.png" width="50px" height="50" alt="css-logo"/>
+<img src="https://logospng.org/download/javascript/logo-javascript-256.png" width="50px" height="50" alt="javascript-logo"/>
 
 #
