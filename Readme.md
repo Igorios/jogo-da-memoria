@@ -1,6 +1,6 @@
 # **Jogo da Memória**
 
-<h2Repositório inspirado em alguns dos programadores mais importântes na história da computação.</h2>
+<h2>Repositório inspirado em alguns dos programadores mais importântes na história da computação.</h2>
 #
 
 ### Que tal jogar? 😁:
